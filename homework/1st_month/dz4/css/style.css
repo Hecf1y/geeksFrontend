@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.block-1 {
+    width: 1138px;
+
+    margin: 50px auto;
+
+    padding-left: 139px;
+    padding-right: 139px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+    background-color: #DDEEFE;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-2 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icons_txt {
+    font-size: 36px;
+    color: #000;
+}
+
+.block-video {
+    width: 596px;
+    height: 433px;
+
+    margin: 50px auto;
+
+    background-image: url("/images/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    display: block;
+}

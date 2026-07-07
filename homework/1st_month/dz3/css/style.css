@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    /* border: 0.5px solid rgb(255, 0, 0); */
+}
+
+.block-1 {
+    height: 100vh;
+
+    background-image: url(/images/image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.socials {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.socials-text {
+    text-align: center;
+    text-transform: capitalize;
+    
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    margin-top: 1.875rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    background-color: #ffffff;
+}
+
+/* 1rem-16px

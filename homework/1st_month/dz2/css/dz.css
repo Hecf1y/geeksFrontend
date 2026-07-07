@@ -1,0 +1,24 @@
+p {
+    width: 500px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: sans-serif;
+    text-indent: 25px
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: blue;
+    width: 500px;
+}
+
+i{
+    color: blue;
+}
+
+b{
+    color: red;
+    font-weight: bold;
+}
