@@ -1,0 +1,155 @@
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__inner .nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header__inner .nav a {
+    font-size: 16px;
+    line-height: 155%;
+    color: #ffffff;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.main {
+    min-height: 100vh;
+    background-color: #519eac;
+    background-image: url('../images/image-main.webp');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main h1 {
+    margin-bottom: 24px;
+    font-size: 56px;
+    letter-spacing: 2.2px;
+}
+
+.main p {
+    max-width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.info {
+    width: 1152px;
+    height: 192px;
+
+    margin: 50px auto;
+    margin-bottom: 128px;
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0 8px 35px 0 rgba(0, 0, 0, .16)
+}
+
+.info__inner {
+    display: flex;
+    gap: 155px;
+    justify-content: space-between;
+}
+
+.info__block {
+    display: flex;
+}
+
+.info__block span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #222222;
+    padding-left: 24px;
+}
+
+.info__block p {
+    font-size: 16px;
+    color: #086CF9;
+    padding-left: 24px;
+
+}
+
+.course {
+    width: 1152px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    margin: 50px auto;
+
+}
+
+.work {
+    display: flex;
+
+    width: 1152px;
+    height: 389px;
+
+    /* background-color: aquamarine; */
+    margin: 50px auto;
+
+
+}
+
+.work-info {
+    text-align: center;
+    margin-bottom: 48px ;
+}
+
+.work-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.work-text {
+    font-size: 16px;
+    font-weight: regular;
+    color: #555555
+}
+
+.work-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.work-item {
+    display: block;
+    text-align: center;
+
+}
+
+.items-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.items-text {
+    font-size: 14px;
+    color: #555555;
+}

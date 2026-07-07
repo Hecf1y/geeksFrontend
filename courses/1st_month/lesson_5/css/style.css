@@ -1,0 +1,85 @@
+* {
+    border: 1px dotted rgb(12, 192, 63);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header__inner .nav a {
+    font-size: 16px;
+    line-height: 155%;
+    color: #fff;
+}
+
+.main {
+    min-height: 100vh;
+    background-color: #fcb0b0;
+
+    background-image: url('../images/image-main.webp');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+
+    padding-top: 180px;
+    padding-bottom: 80px;
+
+    text-align: center;
+    color: #fff;
+}
+
+.main h1 {
+    margin-bottom: 24px;
+    font-size: 56px;
+    letter-spacing: 2.2px;
+}
+
+.main p {
+    max-width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.main button {
+    width: 175px;
+    height: 46px;
+
+    margin-top: 60px;
+
+    background-color: #4F88D9;
+    color: #fff;
+}
+
+.course {}
+
+.work {}
+
+.online {}
+
+.events {}
+
+.footer {}
