@@ -1,0 +1,70 @@
+/*** для блоков ***/
+* {
+    box-sizing: border-box;
+}
+
+.block-1 {
+    width: 500px;
+    background-color: rgb(0, 166, 255);
+    margin: 20px auto;
+    border: 5px solid red;
+    padding: 20px;
+}
+
+html {
+    font-size: 15px;
+}
+
+.block-1 {
+    font-size: 2em;
+}
+
+.block-2 {
+    font-size: 1em;
+}
+
+.block-2 span {
+    font-size: 2rem;
+}
+
+/*** для position ***/
+.rel {
+    width: 150px;
+    height: 470px;
+    margin: 50px auto;
+    background-color: #e8aeae;
+    border-radius: 8px;
+
+    position: relative;
+}
+
+.rel div {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    padding: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.child-1 {
+    background-color: #FF8A00;
+    position: static;
+    top: 20px;
+    right: 20px;
+}
+
+.child-2 {
+    background-color: #6eb3a9;
+    /* position: static; */
+    /* position: fixed; */
+    position: relative;
+
+    bottom: 20px;
+    right: 10px;
+    
+}
+
+.child-3 {
+    background-color: #6a297c;
+}
