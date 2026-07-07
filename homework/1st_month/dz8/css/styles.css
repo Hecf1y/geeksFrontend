@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    /* border: 1px rgb(81, 81, 66) solid; */
+}
+
+/* ==================== MAIN  ==================== */
+
+.main {
+    min-height: 100vh;
+    position: relative;
+
+    background-image: url(/images/img/mansion1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main h1 {
+    max-width: 528px;
+
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    transform: translate(-50%);
+
+    font-size: 38px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ==================== CARD ==================== */
+
+.cards__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.cards__intro {
+    margin-top: 100px;
+
+    font-size: 36px;
+    font-weight: 500;
+    color: #45525B;
+}
+
+.card {
+    background-color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    /* border: 1px red solid; */
+
+    cursor: pointer;
+
+}
+
+.card_content h2:hover {
+    color: red;
+}
+
+.card_content p {
+    font-size: 12px;
+    color: #6F7278;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.card_content h2 {
+    font-size: 20px;
+    color: #45525B;
+    text-align: center;
+}
+
+.card_props {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_props span {
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    color: #45525B;
+
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 22px;
+    margin-top: 10px;
+}
+
+.bed::before {
+    margin-right: 10px;
+    content: url(/images/icn/bed.svg);
+}
+
+.bath::before {
+    margin-right: 10px;
+    content: url(/images/icn/bath.svg);
+}
+
+.door::before {
+    margin-right: 10px;
+    content: url(/images/icn/door.svg);
+
+}
