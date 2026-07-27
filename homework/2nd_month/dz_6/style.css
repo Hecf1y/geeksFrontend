@@ -1,0 +1,80 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: black;
+ }
+
+ .container {
+
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+
+     /* column-gap: 28px; */
+     row-gap: 20px;
+     /* max-width: 480px; */
+ }
+
+ .block_left,
+ .block_right {
+     width: 160px;
+     height: 320px;
+ }
+
+ .block_left {
+     background-color: white;
+     border-radius: 160px 0 0 160px;
+ }
+
+ .block_right {
+     background-color: white;
+     border-radius: 0 160px 160px 0;
+ }
+
+ .left_buttons,
+ .right_buttons {
+     display: flex;
+     flex-direction: column;
+     margin-left: 20px;
+     margin-right: 20px;
+     gap: 20px;
+ }
+
+ .left_buttons button,
+ .right_buttons button {
+
+     color: #fff;
+
+     width: 150px;
+     height: 50px;
+     border-radius: 50%;
+     border: 3px solid white;
+     cursor: pointer;
+ }
+
+ #spinBtn {
+     border: 3px solid white;
+
+     position: absolute;
+     bottom: 50px;
+
+     width: 150px;
+     height: 50px;
+     border-radius: 50%;
+     cursor: pointer;
+
+     color: #fff;
+
+     background: -webkit-linear-gradient(90deg, #228cfe, #815edc, #ac0ba2, #b65e85, #624264);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(90deg, #228cfe, #815edc, #ac0ba2, #b65e85, #624264);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
